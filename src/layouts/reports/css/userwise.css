@@ -1,0 +1,10 @@
+.receipt-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.receipt-description, .receipt-footer {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}

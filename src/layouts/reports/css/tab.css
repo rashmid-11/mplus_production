@@ -1,0 +1,85 @@
+.tab-nav-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .tab-nav-item .nav-link {
+    color: #000000;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 0;
+  }
+  
+  .tab-nav-item .nav-link.active {
+   
+    color: white;
+    background-color: #11cdef;
+   
+  }
+  
+.formcard {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+.cardt{
+  font-weight: 600;
+  color: #0ba9c5;
+}
+
+.maincard{
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 410px) {
+  .maincard{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .formcard {
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.mybutton{
+  border-radius: 30px;
+}
+
+.clickable-card{
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* .receipt {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.receipt-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.receipt-item {
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-bottom: #3ebed4 2px solid;
+}
+
+.receipt-footer {
+  
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+ */

@@ -1,0 +1,107 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   margin: 0px;
+
+  }
+  
+
+  .login-container {
+    margin-top: 0 !important;
+  }
+  
+
+ body {
+  background-color: #ecf0f1;
+}
+@media (max-width: 767px) {
+  .login-container {
+   
+    width: 100%; 
+    padding: 20px; 
+  }
+
+  
+  .login-button {
+    width: 100%; 
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+  
+
+.waviy-container {
+
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below 25px linear-gradient(transparent,rgba(0, 0, 0, 0.2));
+  font-size: 55px;
+  text-align: center;
+color: white;
+}
+
+.waviy span {
+  font-family: 'Alfa Slab One',  serif;
+  position: relative;
+  display: inline-block;
+  color: rgb(46, 27, 6);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+ font-size: 40px;
+ /* text-align: center; */
+ /* align-items: center; */
+
+}
+.words{
+padding: 6px;
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+@media (max-width: 768px) {
+    .waviy {
+      font-size: 20px;
+    }
+    .words{
+        padding: 5px;
+        }
+  }
+  .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  
+@media (max-width: 767px) {
+  .login_container img {
+padding-right: 80px !important; 
+    width: auto !important; 
+    max-width: 100% !important; 
+    display: block;
+    margin-left: 0px; 
+    margin-right: 0px;
+  }
+}
